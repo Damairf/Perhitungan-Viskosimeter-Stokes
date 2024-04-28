@@ -61,7 +61,7 @@ print()
 
 # Mencari kekentalan zat cair (KZC)
 print('Mencari kekentalan zat cair (Pas)')
-kedalaman = float(input('Masukkan kedalam(s): '))
+kedalaman = float(input('Masukkan kedalaman(s): '))
 waktu = float(input('Masukkan waktu(t): '))
 koefisienKZC = (2 * waktu * jari**2) * (9.8 * (P - 1000)) / (9 * kedalaman)
 print('Hasil akhir adalah', koefisienKZC)
